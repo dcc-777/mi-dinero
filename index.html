@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Progreso Financiero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mi progreso financiero</h1>
+
+    <section class="metas">
+        <h2>Metas Semanales</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Semana</th>
+                    <th>Meta</th>
+                    <th>Reunido</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-metas">
+                <!-- Se llena con JS -->
+            </tbody>
+        </table>
+    </section>
+
+    <section class="grafico">
+        <h2>Ahorro acumulado</h2>
+        <canvas id="graficoAhorro" width="600" height="300"></canvas>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="data.js"></script>
+</body>
+</html>
